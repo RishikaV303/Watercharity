@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Monomakh&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    height: 100vh;
+    width: 100%;
+}
+header nav{
+    height: 10%;
+    width: 100%;
+    /* background-color: rgb(147, 112, 179); */
+    display: flex;
+    justify-content: center;
+    font-family: "poppins";
+}
+header nav .options{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: chocolate; */
+}
+header nav .options .first-half{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header nav .options .first-half .logo{
+    width: 30%;
+    height: 90%;
+    /* background-color: rgb(8, 0, 255); */
+}
+header nav .options .first-half .logo img{
+    width: 100%;
+    height: 100%;
+}
+header nav .options .first-half ul{
+    width: 70%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    /* background-color: blue; */
+    gap: 10px;
+}
+header nav .options .first-half ul .option-one{
+    gap: 10px;
+    display: flex;
+}
+header nav .options .first-half ul li{
+    list-style: none;
+}
+header nav .options .first-half ul li a{
+    text-decoration: none;
+    color: black;
+}
+header nav .options .sec-half{
+    width: 30%;
+    height: 90%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+}
+header nav .options .sec-half a, p{
+    text-decoration: none;
+    color: black;
+}
+header nav .options .sec-half button{
+    width: 80px;
+    height: 30px;
+    background-color: #FFC907;
+    border: none;
+    border-radius: 5px;
+}
+header nav .options .sec-half button i{
+    color: rgb(119, 168, 229);
+}
+/* banner  */
+header .banner{
+    width: 100%;
+    height: 90%;
+    /* background-color: rgb(194, 181, 206); */
+    background: url('./images/charity-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    
+
+}
+header .wrap {
+    width: 70%;
+    height: 100%;
+    /* background-color: rgb(227, 104, 10); */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 15px;
+}
+header .wrap .sub-wrap{
+    width: 40%;
+    height:100%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+header .wrap .sub-wrap .heading{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+
+    /* background-color: chartreuse; */
+}
+header .wrap .sub-wrap .heading h1{
+    color: white;
+    text-align: center;
+    font-family:  "Lora", serif;
+    font-weight: 400;
+}
+header .wrap .sub-wrap .main_parent{
+    width: 80%;
+    height: 70%;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+header .wrap .sub-wrap .main_parent .button{
+    width: 100%;
+    height: 7%;
+    /* background-color: beige; */
+    display: flex;
+}
+header .wrap .sub-wrap .main_parent .button button{
+    width: 50%;
+    height: 100%;
+    background-color: #FFC907;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+header .wrap .sub-wrap .main_parent .button button:nth-child(2){
+    background-color: white;
+}
+header .wrap .main_parent .choose{
+    width: 100%;
+    height: 78%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+}
+header .wrap .sub-wrap .main_parent .choose .amount-heading{
+    width: 100%;
+    height: 15%;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "poppins";
+    background-color: #F4F5F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    border-radius: 3px;
+}
+header .wrap .sub-wrap .main_parent .choose form input[type="radio"]{
+    display: none;
+}
+header .wrap .sub-wrap .main_parent .choose form .row-one{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+header .wrap .sub-wrap .main_parent .choose form .row-two{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+header .wrap .sub-wrap .main_parent .choose form .row-two #amounts{
+    width: 210px;
+    height: 40px;
+}
+/* header .wrap .main_parent .choose form {
+    font-size: ;
+} */
+header .wrap .sub-wrap .main_parent .choose form .amount{
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px 20px; */
+    font-size: 12px;
+    font-weight: 700;
+    border: 2px solid #c5c5c5;
+    color: #4b4a4a;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.3s;
+    background-color: #E9EAE4;
+}
+
+header .wrap .sub-wrap .main_parent .choose .but{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+header .wrap .sub-wrap .main_parent .choose .but button{
+    width: 95%;
+    height: 40px;
+    color: rgb(37, 37, 37);
+    background-color: #FFC907;
+    border-radius: 5px;
+    border: 1px solid #FFC907;
+    font-weight: bold;
+
+}
+header .wrap .sub-wrap .main_parent .choose .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 10%;
+}
+header .wrap .sub-wrap .main_parent .choose .links a{
+    color: rgb(84, 80, 80);
+}
+header .wrap .sub-wrap .main_parent .choose .clickhere{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    /* background-color: #222020; */
+    border-top: 1px solid #9d9d9d;
+}
+header .wrap .sub-wrap .main_parent .choose .clickhere p{
+    color: #868181;
+}
+header .wrap .sub-wrap .main_parent .choose .clickhere a{
+    color: rgb(9, 68, 110);
+}
+header .wrap .sub-wrap .main_parent .secure-policy p{
+    color: #212020;
+    text-align: center;
+    font-weight: lighter;
+
+
+}
